@@ -1,7 +1,14 @@
 import UIKit
-import Foundation
 
-final class OneUIKit: UIButton {
+public struct OneUIKit {
+    public private(set) var text = "Hello, World!"
+
+    public init() {
+    }
+}
+
+
+public final class OneButton: UIButton {
     override init(frame: CGRect) {
         super.init(frame: frame)
     }
